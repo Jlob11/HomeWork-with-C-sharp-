@@ -9,6 +9,7 @@ int count = 1;
 
 while(count <= N)
 {
-    Console.Write($"{count} + ',' ");
-    count++;
-}
+    if (count % 2 == 0)
+        Console.Write($"{count}  ");
+        count++;
+    }
