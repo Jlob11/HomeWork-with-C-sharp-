@@ -1,17 +1,5 @@
-﻿// Задача 4: Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+﻿Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
 
-// 2, 3, 7 -> 7
-// 44 5 78 -> 78
-// 22 3 9 -> 22
-
-Console.WriteLine("Введите 3 числа");
-int a = int.Parse(Console.ReadLine());
-int b = int.Parse(Console.ReadLine());
-int c = int.Parse(Console.ReadLine());
-int max = a;
-
-if (a > max) max = a;
-if (b > max) max = b;
-if (c > max) max = c;
-
-Console.WriteLine($"Max = {max}");
+4 -> да
+-3 -> нет
+7 -> нет
