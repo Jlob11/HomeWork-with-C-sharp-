@@ -2,3 +2,13 @@
 
 // 5 -> 2, 4
 // 8 -> 2, 4, 6, 8
+
+Console.WriteLine("Введите число: ");
+int N = int.Parse(Console.ReadLine());
+int count = 1;
+
+while(count <= N)
+{
+    Console.Write($"{count} + ',' ");
+    count++;
+}
